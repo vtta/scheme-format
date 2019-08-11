@@ -242,5 +242,5 @@
           (accumulate op initial (cdr sequence)))))
 
 (define (add-indent-size . items)
-  (let ((indent-size 1))
+  (let ((indent-size 2))
    (accumulate + indent-size items)))
