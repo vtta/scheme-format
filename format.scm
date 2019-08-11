@@ -369,7 +369,7 @@
     (inline (cadr x))
     (args (cddr x) (add-indent-size col)))
    ((and (length? 2 x)
-         (memq (car x) '(do-until do-while if unless when)))
+         (memq (car x) '(do-until do-while unless when)))
     (display "(")
     (write (car x))
     (display " ")
